@@ -17,5 +17,10 @@
     "--compile-commands-dir=${workspaceFolder}\\build"
   ],
   "idf.flashType": "UART",
-  "idf.portWin": "COM6"
+  "idf.portWin": "COM6",
+  "files.associations": {
+    "vl53l0x.h": "c",
+    "i2c_master.h": "c",
+    "cstdint": "c"
+  }
 }
